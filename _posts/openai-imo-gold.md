@@ -71,7 +71,7 @@ DeepSeek's [DeepSeek-Prover-V2](https://arxiv.org/pdf/2504.21801) and DeepMind's
 Combining AlphaProof and AlphaGeometry 2 achieved silver medal-level performance in IMO 2024.
 
 AlphaProof is trained by formalizing problems into Lean using a formalizer network, searching for proofs using a solver network (verified using Lean) and using the [AlphaZero](https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/?_gl=1*1rrdmid*_up*MQ..*_ga*ODIzMDU1OTMxLjE3NTI5Nzg4MDg.*_ga_LS8HVHCNQ0*czE3NTI5Nzg4MDgkbzEkZzAkdDE3NTI5Nzg4MDgkajYwJGwwJGgw) RL algorithm to solve progressively harder problems.
-![Alpha Proof Pipeline](alphaproof.png)
+![Alpha Proof Pipeline](openai-imo-gold/alphaproof.png)
 
 These are all neurosymbolic methods tailored specifically to solve mathematical problems. On the other hand, OpenAI's new experimental reasoning model does not have a symbolic component and uses general purpose reasoning, without being designed specifically to solve IMO problems. It also means a single model can solve all the problems without having to combine task specific models such as AlphaProof and AlphaGeometry 2.
 
@@ -87,7 +87,7 @@ The ability of models to reason effectively over very long time horizons (weeks/
 
 METR posted an [article](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/#:~:text=If%20we%20plot%20this%20on,time%20of%20around%207%20months.)
 which showed that the length of tasks AI agents can do is doubling every 7 months
-![Length of tasks AI can do is doubling every 7 months](length-of-tasks-log.png).
+![Length of tasks AI can do is doubling every 7 months](openai-imo-gold/length-of-tasks-log.png).
 
 OpenAI's new experimental reasoning model can reason for multiple hours which shows a continuation of this trend. The longer the models can reason for without breaking down, the harder and more useful real world tasks the model can solve. We introduced [PuzzleWorld](https://arxiv.org/pdf/2506.06211), a puzzlehunt benchmark aimed to test the ability of models to solve open-ended, multimodal problems that humans often take hours or even days to solve. OpenAI's new model shows a promising step in this direction of being able to solve longer time horizon problems.
 
