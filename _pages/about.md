@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I recently graduated with an MEng from MIT on exchange as a Computer Science exchange student from Imperial College London where I was ranked first in my cohort.
+I recently graduated with an MEng from MIT on exchange as a Computer Science exchange student from Imperial College London where I ranked first in my cohort.
 
 I am currently working on research in multimodal LLM reasoning with reinforcement learning and AI for education in the Multisensory Intelligence group at the MIT Media Lab under the supervision of [Paul Liang](https://pliang279.github.io/).
 
