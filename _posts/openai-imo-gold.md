@@ -1,5 +1,5 @@
 ---
-title: "OpenAI's LLM Wins IMO Gold: A Breakthrough in General-Purpose Reasoning"
+title: 'OpenAI`s LLM Wins IMO Gold: A Breakthrough in General-Purpose Reasoning'
 date: 2025-07-2020
 permalink: /posts/2025/07/openai-imo-gold/
 tags:
