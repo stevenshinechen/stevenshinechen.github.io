@@ -110,6 +110,8 @@ Firstly, this breakthrough was from OpenAI's new multi-agent team (https://x.com
 
 Secondly, the team is small, (https://x.com/polynoamial/status/1946478258968531288) and fairly new, suggesting that a new model was not trained from scratch. Instead, it is likely that existing reasoning models were used (likely unreleased reasoning models) and RL post training techniques were applied.
 
+### Terence Tao on OpenAI's IMO Gold
+
 Terence Tao hints how multiple agents may have been used and highlights how it is unfair to compare the performance of human participants with OpenAI's new AI model:
 https://mathstodon.xyz/@tao/114881418225852441
 
@@ -121,6 +123,7 @@ He says that while the 6 human IMO participants in each team are not allowed to 
 - Team leader guides the students towards promising approaches and stops them if they are stuck on an approach unlikely to succeed (Coordinator LLM that oversees the other agents)
 - Team leader selects best solution, discarding the rest (Coordinator LLM selects best solution out of all the agents)
 - If no student obtains a good solution, the team leader withdraws from the competition (Tuning the system to achieve strong performance on IMO 2025 without reporting poor results.)
+
 
 ## How it Works (Maybe)
 
@@ -152,6 +155,18 @@ While the above is more of an engineering perspective of how such as system coul
 A number of LLM agents can be trained via multi-agent RL to collaborate together and emergent abilities such as role specialization may emerge as the result of this process. 
 
 If this approach is not already used in the system, it is likely that this approach would be their end goal as it is more bitter-lesson pilled than pre-defining the LLM agent system, allowing for scaling up of learning.
+
+### Caveats to OpenAI's Approach
+
+OpenAI's system should not be compared to human intelligence. As Terence Tao mentions, human participants take the IMO exam under different conditions, even though OpenAI's post makes it seem like they are the same.
+
+A better comparison would be a single AI agent with sequential, constrained compute. For example, compare this to the China IMO 2025 team, where all six students solved all the problems that OpenAI's model solved independently and some went on to solve problem 6 that OpenAI failed to solve.
+
+Or take a bronze-medal team, if they collaborated together it is likely that they too could have achieved a gold medal, or if they had more time to think (similar to how OpenAI's model can think in parallel) or with their coach nudging them in the right direction they would probably achieve much better results.
+
+It is also no coincidence that they choose to publish this result in conjunction with the conclusion of IMO 2025 (with DeepMind also rumored to have created a system which also achieves IMO gold). There is some degree of publication bias to this extent, if they had not achieved strong performance, they would not have published the result. If the IMO 2025 problems turned out to be very tricky for LLMs then we probably would have to wait longer before seeing these results.
+
+All in all, while OpenAI's system is a great achievement, its comparison with human intelligence should be taken with a grain of salt. But for solving real world problems such as scientific discovery, we may not care too much about how much compute it requires as long as the model solves the problem.
 
 ## Conclusion
 
